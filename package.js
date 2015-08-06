@@ -19,7 +19,7 @@ Package.onUse(function(api) {
   api.use('random', 'client');
   api.use('service-configuration', ['client', 'server']);
 
-  api.export('orcid');
+  api.export('ORCID');
 
   api.addFiles(
     ['orcid_configure.html', 'orcid_configure.js'],
