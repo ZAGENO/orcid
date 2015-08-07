@@ -16,8 +16,7 @@ OAuth.registerService('orcid', 2, null, function (query) {
 
     return {
         serviceData: serviceData,
-	options: {
-	}
+        options: {profile: {name: serviceData.id}}
     };
 });
 
